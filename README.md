@@ -49,7 +49,8 @@ Type=Application
 
 Write a vim configuration file.
 I wanted to record keystrokes. But I need to let my fingers remember him, so you know.... google it when I use it. It is only related to the vim design concept.
-three modes：**insert mode**、**normal mode**、**visual mode**
+
+some modes：**insert mode**、**normal mode**、**visual mode**
 
 ```shell
 operation + motion
