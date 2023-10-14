@@ -1,13 +1,17 @@
 # myvimrc
-My vim configuration file.
+~~My vim configuration file.~~
+My nvim configuration file.
 
 ## other things
 
 ### linux something set up
 
+
+
 #### DWM
 
 The window manager is a very useful thing, and there is an i3. dwm is more lightweight, use this if you have insufficient memory
+
 ```shell
 # update system
 sudo pacman -Syu # reboot it.
@@ -39,18 +43,26 @@ Type=Application
 ####
 # reboot, and choose dwm
 # It's ok. just set it.
-# front is too small. set to 18.
+# front is too small. set to 16.
 # every change it, need make install again.
 
 # change the wallpaper, so what... 
 ```
+#### DWM patches
+```
+auto-
+// Transparent patch.
+dwm-alpha-20230401-348f655.diff
 
+```
+---
 #### Vim
 
 Write a vim configuration file.
+
 I wanted to record keystrokes. But I need to let my fingers remember him, so you know.... google it when I use it. It is only related to the vim design concept.
 
-some modes：**insert mode**、**normal mode**、**visual mode**
+three modes：**insert mode**、**normal mode**、**visual mode**
 
 ```shell
 operation + motion
@@ -67,16 +79,17 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     
 Plugin recommendation:
 airline、vim-snazzy、nerdtree(ff)、coc.nvim、cppSyntaxCheck&syntastic、goyo、undotree
-
-output html：%TOhtml
-Insufficient authority：r ! tee %
-
 ```
+some commands:
+
++ output html：%TOhtml 
++ Insufficient authority：r ! tee %
 
 
 
 
 
+---
 #### Ranger
 
 Terminal file management, looks good.
@@ -84,6 +97,21 @@ Terminal file management, looks good.
 ```shell
 sudo pacman -S ranger xsel
 
+
 ```
 
-Just this now....
+#### Fcitx5:
+First, download something
+```shell
+yay -S fcitx5 fcitx5-chinese-addons fcitx5-input-support
+```
+set xiaohe shuangpin
+
+```
+win+p, fictx5-configtools
+```
+
+#### MarkdownPreview
+vim-plug, markdowmpreview
+
+Just this now..
