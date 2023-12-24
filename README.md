@@ -48,13 +48,6 @@ Type=Application
 
 # change the wallpaper, so what... 
 ```
-#### DWM patches
-```
-auto-
-// Transparent patch.
-dwm-alpha-20230401-348f655.diff
-
-```
 ---
 #### Vim
 
@@ -98,17 +91,6 @@ Terminal file management, looks good.
 sudo pacman -S ranger xsel
 
 
-```
-
-#### Fcitx5:
-First, download something
-```shell
-yay -S fcitx5 fcitx5-chinese-addons fcitx5-input-support
-```
-set xiaohe shuangpin
-
-```
-win+p, fictx5-configtools
 ```
 
 #### MarkdownPreview
